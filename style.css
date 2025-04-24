@@ -1,0 +1,85 @@
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: #fff9f5;
+  color: #333;
+}
+.hero {
+  background: linear-gradient(to top, #00000066, #00000099), url('img1.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.overlay h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+.overlay p {
+  font-size: 1.2rem;
+}
+.overlay button {
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #d87d4a;
+  color: white;
+  cursor: pointer;
+}
+section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+form input, form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 0.8rem;
+  background: #d87d4a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.ucapan-box {
+  background: #fff;
+  border-left: 4px solid #d87d4a;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+footer {
+  background: #fff3ec;
+  padding: 1.5rem;
+}
